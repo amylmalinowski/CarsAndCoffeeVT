@@ -136,6 +136,11 @@ aside {
         color: rgba(255,255,255,.7);
     }
 
+    .navbar-default .navbar-header .events-brand {
+        color: #f05f40;
+    }
+
+
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
         color: #fff;
