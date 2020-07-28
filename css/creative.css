@@ -16,7 +16,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #f05f40;
+    border-color: #298640;
     border-width: 3px;
 }
 
@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    color: #298640;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -33,7 +33,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #71a823;
 }
 
 h1,
@@ -52,7 +52,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    background-color: #298640;
 }
 
 .bg-dark {
@@ -94,12 +94,12 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #f05f40;
+    color: #298640;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #71a823;
 }
 
 .navbar-default .nav > li>a,
@@ -112,12 +112,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #f05f40;
+    color: #298640;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+    color: #298640!important;
     background-color: transparent;
 }
 
@@ -135,11 +135,6 @@ aside {
     .navbar-default .navbar-header .navbar-brand {
         color: rgba(255,255,255,.7);
     }
-
-    .navbar-default .navbar-header .events-brand {
-        color: #f05f40;
-    }
-
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
@@ -163,12 +158,12 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #f05f40;
+        color: #298640;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #71a823;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -178,7 +173,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #f05f40;
+        color: #298640;
     }
 }
 
@@ -188,7 +183,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.png);
+    background-image: url(../img/parking_lot.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -255,7 +250,7 @@ header .header-content .header-content-inner p {
 
 .service-box {
     margin: 50px auto 0;
-    max-width: 400px;
+    max-width: 600px;
 }
 
 @media(min-width:992px) {
@@ -338,7 +333,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #f05f40;
+    color: #298640;
 }
 
 .no-gutter > [class*=col-] {
@@ -400,9 +395,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #f05f40;
+    border-color: #298640;
     color: #fff;
-    background-color: #f05f40;
+    background-color: #298640;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -414,9 +409,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
+    border-color: #71a822;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #71a822;
 }
 
 .btn-primary:active,
@@ -443,12 +438,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #f05f40;
-    background-color: #f05f40;
+    border-color: #298640;
+    background-color: #298640;
 }
 
 .btn-primary .badge {
-    color: #f05f40;
+    color: #298640;
     background-color: #fff;
 }
 
@@ -506,3 +501,34 @@ body {
 #map-outer {
     height: 650px }
         }
+
+.shadowed {
+  -webkit-filter: drop-shadow(3px 3px 3px #222);
+  filter: drop-shadow(3px 3px 3px #222);
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.alert {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: black;
+}
